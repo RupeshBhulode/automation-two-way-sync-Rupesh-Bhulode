@@ -164,9 +164,9 @@ The script will:
 
 **Test Sheet → Trello:**
 1. Open your Google Sheet
-2. Add a new row: `L005 | Jane Smith | jane@example.com | new | Test lead | Website`
+2. Add a new row: ` 1 | Rupesh Bhulode | r@gmail.com | new | Test lead | Website`
 3. Wait 5 seconds
-4. Check Trello - you should see a new card "Jane Smith (LeadID: L005)" in the TODO list
+4. Check Trello - you should see a new card "Rupesh Bhulode (LeadID: 1)" in the TODO list
 
 **Test Trello → Sheet:**
 1. Open your Trello board
