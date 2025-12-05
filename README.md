@@ -67,7 +67,7 @@ Google Sheets (Lead Tracker)          Trello Board (Work Tracker)
 
 ### Step 1: Clone the Repository
 ```bash
-git clone <your-repo-url>
+git clone automation-two-way-sync-Rupesh-Bhulode
 cd automation-two-way-sync
 ```
 
