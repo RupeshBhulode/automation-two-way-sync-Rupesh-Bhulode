@@ -23,24 +23,9 @@ The sync runs continuously, ensuring that changes in either system are reflected
 
 ## Architecture & Flow
 
-```
-Google Sheets (Lead Tracker)          Trello Board (Work Tracker)
-┌─────────────────────────┐          ┌─────────────────────────┐
-│ ID | Name | Email       │          │   TODO List             │
-│ Category | Note | Source│   sync   │   ├─ Card: John Doe    │
-│                         │  <-----> │   └─ (LeadID: L001)     │
-│ L001 | John | john@...  │          │                         │
-│ new | Follow up | Web   │          │   INPROGRESS List       │
-└─────────────────────────┘          │   DONE List             │
-                                      └─────────────────────────┘
 
-                    ↕
-              sync_logic.py
-           (Bidirectional Sync)
-                    ↕
-              data.json
-         (Mapping & State Storage)
-```
+<img width="821" height="463" alt="image" src="https://github.com/user-attachments/assets/33fb475c-f909-46b6-ab5c-0761ce762b5c" />
+
 
 ### Status Mapping
 
