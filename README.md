@@ -272,8 +272,8 @@ I also modified AI-generated logging statements to be more specific and actionab
 ---
 
 ## Video Demo
+**[📹 Watch the Demo Video](https://drive.google.com/file/d/1SQg3_z1ebanMS0fb-xIyKSW7Qtsw2m7V/view?usp=sharing)**
 
-**[📹 Watch the Demo Video](YOUR_GOOGLE_DRIVE_LINK_HERE)**
 
 The video covers:
 - Quick architecture overview
