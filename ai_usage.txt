@@ -1,0 +1,17 @@
+AI Usage Notes
+Tools Used
+ChatGPT (GPT-4) - For code structure planning, API documentation clarification, and debugging
+Where AI Helped
+API Documentation Summary: Used ChatGPT to quickly understand Trello and Google Sheets API endpoints instead of reading lengthy docs
+Regex Pattern: Generated the email extraction regex in task_client.py
+Error Handling Patterns: Got suggestions for try-catch structure in sync_logic.py
+Code Comments: Generated initial comments which I then refined
+What I Changed/Rejected
+Example: ChatGPT initially suggested using a database (SQLite) for the state management instead of data.json. I rejected this because:
+
+Added unnecessary complexity for a small project
+JSON is human-readable and easier to debug
+No concurrent access concerns with single-threaded polling
+Keeps dependencies minimal
+I also modified AI-generated logging statements to be more specific and actionable.
+
